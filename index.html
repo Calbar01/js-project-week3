@@ -13,28 +13,32 @@
 
         let y = 1;
         y = -y;
-        console.log(y); // -1, unary negation was applied
-// converting numbers to strings 
+        console.log(y); 
+        
+// -1, unary negation was applied
+let apples = "2";
+let oranges = "3";
+console.log(apples);
+console.log(oranges);
+console.log(+apples + +oranges);
 
-        console.groupEnd();
-        let apples = "2";
-        let oranges = "3";
-        console.log(apples);
-        console.log(oranges);
-        console.log( +apples + +oranges );
+let s = "my" + "string";
+console.log(s); //mystring
 
-        let s = "my" + "string";
-        console.log(s); // mystring
-        console.log( '1' + 2 ); 
-        console.log( 2 + '1' );
-        console.log( 2 + 2 + '1' );
-        console.group('Assignment');
+console.log('1' +2);
+console.log(2 +'1');
+console.log( 2 + 2 + '1' );
+console.groupEnd();
+
+        
 // Assignment " = "
-        let x = 2 * 2 + 1;
+console.group('Assignment');
+
+        let x = 2 * 2 + 1;//5
+        console.log(x);
 
         console.groupEnd();
-        console.log(x);
-        console.groupEnd();
+        
 
 // Loops
         console.group('Loops');
